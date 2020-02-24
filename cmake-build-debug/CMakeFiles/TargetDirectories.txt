@@ -1,0 +1,5 @@
+/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles/uvtee.dir
+/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles/uvcat.dir
+/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles/libuvLearningNote.dir
