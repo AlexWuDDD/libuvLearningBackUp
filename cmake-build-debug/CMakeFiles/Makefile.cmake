@@ -52,7 +52,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/tcpEchoServer.dir/DependInfo.cmake"
+  "CMakeFiles/tcpClient.dir/DependInfo.cmake"
   "CMakeFiles/uvtee.dir/DependInfo.cmake"
+  "CMakeFiles/interface.dir/DependInfo.cmake"
   "CMakeFiles/uvcat.dir/DependInfo.cmake"
+  "CMakeFiles/dns.dir/DependInfo.cmake"
+  "CMakeFiles/udp-dhcp.dir/DependInfo.cmake"
+  "CMakeFiles/onChange.dir/DependInfo.cmake"
   "CMakeFiles/libuvLearningNote.dir/DependInfo.cmake"
   )

@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named tcpEchoServer
+
+# Build rule for target.
+tcpEchoServer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tcpEchoServer
+.PHONY : tcpEchoServer
+
+# fast build rule for target.
+tcpEchoServer/fast:
+	$(MAKE) -f CMakeFiles/tcpEchoServer.dir/build.make CMakeFiles/tcpEchoServer.dir/build
+.PHONY : tcpEchoServer/fast
+
+#=============================================================================
+# Target rules for targets named tcpClient
+
+# Build rule for target.
+tcpClient: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tcpClient
+.PHONY : tcpClient
+
+# fast build rule for target.
+tcpClient/fast:
+	$(MAKE) -f CMakeFiles/tcpClient.dir/build.make CMakeFiles/tcpClient.dir/build
+.PHONY : tcpClient/fast
+
+#=============================================================================
 # Target rules for targets named uvtee
 
 # Build rule for target.
@@ -122,6 +148,19 @@ uvtee: cmake_check_build_system
 uvtee/fast:
 	$(MAKE) -f CMakeFiles/uvtee.dir/build.make CMakeFiles/uvtee.dir/build
 .PHONY : uvtee/fast
+
+#=============================================================================
+# Target rules for targets named interface
+
+# Build rule for target.
+interface: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 interface
+.PHONY : interface
+
+# fast build rule for target.
+interface/fast:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/build
+.PHONY : interface/fast
 
 #=============================================================================
 # Target rules for targets named uvcat
@@ -137,6 +176,45 @@ uvcat/fast:
 .PHONY : uvcat/fast
 
 #=============================================================================
+# Target rules for targets named dns
+
+# Build rule for target.
+dns: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dns
+.PHONY : dns
+
+# fast build rule for target.
+dns/fast:
+	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/build
+.PHONY : dns/fast
+
+#=============================================================================
+# Target rules for targets named udp-dhcp
+
+# Build rule for target.
+udp-dhcp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 udp-dhcp
+.PHONY : udp-dhcp
+
+# fast build rule for target.
+udp-dhcp/fast:
+	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/build
+.PHONY : udp-dhcp/fast
+
+#=============================================================================
+# Target rules for targets named onChange
+
+# Build rule for target.
+onChange: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 onChange
+.PHONY : onChange
+
+# fast build rule for target.
+onChange/fast:
+	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/build
+.PHONY : onChange/fast
+
+#=============================================================================
 # Target rules for targets named libuvLearningNote
 
 # Build rule for target.
@@ -148,6 +226,60 @@ libuvLearningNote: cmake_check_build_system
 libuvLearningNote/fast:
 	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/build
 .PHONY : libuvLearningNote/fast
+
+dns/main.o: dns/main.cpp.o
+
+.PHONY : dns/main.o
+
+# target to build an object file
+dns/main.cpp.o:
+	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/dns/main.cpp.o
+.PHONY : dns/main.cpp.o
+
+dns/main.i: dns/main.cpp.i
+
+.PHONY : dns/main.i
+
+# target to preprocess a source file
+dns/main.cpp.i:
+	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/dns/main.cpp.i
+.PHONY : dns/main.cpp.i
+
+dns/main.s: dns/main.cpp.s
+
+.PHONY : dns/main.s
+
+# target to generate assembly for a file
+dns/main.cpp.s:
+	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/dns/main.cpp.s
+.PHONY : dns/main.cpp.s
+
+interface/main.o: interface/main.cpp.o
+
+.PHONY : interface/main.o
+
+# target to build an object file
+interface/main.cpp.o:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/interface/main.cpp.o
+.PHONY : interface/main.cpp.o
+
+interface/main.i: interface/main.cpp.i
+
+.PHONY : interface/main.i
+
+# target to preprocess a source file
+interface/main.cpp.i:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/interface/main.cpp.i
+.PHONY : interface/main.cpp.i
+
+interface/main.s: interface/main.cpp.s
+
+.PHONY : interface/main.s
+
+# target to generate assembly for a file
+interface/main.cpp.s:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/interface/main.cpp.s
+.PHONY : interface/main.cpp.s
 
 main.o: main.cpp.o
 
@@ -176,6 +308,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+onChange/main.o: onChange/main.cpp.o
+
+.PHONY : onChange/main.o
+
+# target to build an object file
+onChange/main.cpp.o:
+	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/onChange/main.cpp.o
+.PHONY : onChange/main.cpp.o
+
+onChange/main.i: onChange/main.cpp.i
+
+.PHONY : onChange/main.i
+
+# target to preprocess a source file
+onChange/main.cpp.i:
+	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/onChange/main.cpp.i
+.PHONY : onChange/main.cpp.i
+
+onChange/main.s: onChange/main.cpp.s
+
+.PHONY : onChange/main.s
+
+# target to generate assembly for a file
+onChange/main.cpp.s:
+	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/onChange/main.cpp.s
+.PHONY : onChange/main.cpp.s
+
+tcp-echo-server/main.o: tcp-echo-server/main.cpp.o
+
+.PHONY : tcp-echo-server/main.o
+
+# target to build an object file
+tcp-echo-server/main.cpp.o:
+	$(MAKE) -f CMakeFiles/tcpEchoServer.dir/build.make CMakeFiles/tcpEchoServer.dir/tcp-echo-server/main.cpp.o
+.PHONY : tcp-echo-server/main.cpp.o
+
+tcp-echo-server/main.i: tcp-echo-server/main.cpp.i
+
+.PHONY : tcp-echo-server/main.i
+
+# target to preprocess a source file
+tcp-echo-server/main.cpp.i:
+	$(MAKE) -f CMakeFiles/tcpEchoServer.dir/build.make CMakeFiles/tcpEchoServer.dir/tcp-echo-server/main.cpp.i
+.PHONY : tcp-echo-server/main.cpp.i
+
+tcp-echo-server/main.s: tcp-echo-server/main.cpp.s
+
+.PHONY : tcp-echo-server/main.s
+
+# target to generate assembly for a file
+tcp-echo-server/main.cpp.s:
+	$(MAKE) -f CMakeFiles/tcpEchoServer.dir/build.make CMakeFiles/tcpEchoServer.dir/tcp-echo-server/main.cpp.s
+.PHONY : tcp-echo-server/main.cpp.s
+
+tcpClient/tcpClient.o: tcpClient/tcpClient.cpp.o
+
+.PHONY : tcpClient/tcpClient.o
+
+# target to build an object file
+tcpClient/tcpClient.cpp.o:
+	$(MAKE) -f CMakeFiles/tcpClient.dir/build.make CMakeFiles/tcpClient.dir/tcpClient/tcpClient.cpp.o
+.PHONY : tcpClient/tcpClient.cpp.o
+
+tcpClient/tcpClient.i: tcpClient/tcpClient.cpp.i
+
+.PHONY : tcpClient/tcpClient.i
+
+# target to preprocess a source file
+tcpClient/tcpClient.cpp.i:
+	$(MAKE) -f CMakeFiles/tcpClient.dir/build.make CMakeFiles/tcpClient.dir/tcpClient/tcpClient.cpp.i
+.PHONY : tcpClient/tcpClient.cpp.i
+
+tcpClient/tcpClient.s: tcpClient/tcpClient.cpp.s
+
+.PHONY : tcpClient/tcpClient.s
+
+# target to generate assembly for a file
+tcpClient/tcpClient.cpp.s:
+	$(MAKE) -f CMakeFiles/tcpClient.dir/build.make CMakeFiles/tcpClient.dir/tcpClient/tcpClient.cpp.s
+.PHONY : tcpClient/tcpClient.cpp.s
+
 test.o: test.cpp.o
 
 .PHONY : test.o
@@ -202,6 +415,33 @@ test.s: test.cpp.s
 test.cpp.s:
 	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/test.cpp.s
 .PHONY : test.cpp.s
+
+udp-dhcp/main.o: udp-dhcp/main.cpp.o
+
+.PHONY : udp-dhcp/main.o
+
+# target to build an object file
+udp-dhcp/main.cpp.o:
+	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/udp-dhcp/main.cpp.o
+.PHONY : udp-dhcp/main.cpp.o
+
+udp-dhcp/main.i: udp-dhcp/main.cpp.i
+
+.PHONY : udp-dhcp/main.i
+
+# target to preprocess a source file
+udp-dhcp/main.cpp.i:
+	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/udp-dhcp/main.cpp.i
+.PHONY : udp-dhcp/main.cpp.i
+
+udp-dhcp/main.s: udp-dhcp/main.cpp.s
+
+.PHONY : udp-dhcp/main.s
+
+# target to generate assembly for a file
+udp-dhcp/main.cpp.s:
+	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/udp-dhcp/main.cpp.s
+.PHONY : udp-dhcp/main.cpp.s
 
 uvcat/main.o: uvcat/main.cpp.o
 
@@ -263,17 +503,41 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... tcpEchoServer"
+	@echo "... tcpClient"
 	@echo "... uvtee"
+	@echo "... interface"
 	@echo "... uvcat"
 	@echo "... rebuild_cache"
+	@echo "... dns"
+	@echo "... udp-dhcp"
+	@echo "... onChange"
 	@echo "... edit_cache"
 	@echo "... libuvLearningNote"
+	@echo "... dns/main.o"
+	@echo "... dns/main.i"
+	@echo "... dns/main.s"
+	@echo "... interface/main.o"
+	@echo "... interface/main.i"
+	@echo "... interface/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... onChange/main.o"
+	@echo "... onChange/main.i"
+	@echo "... onChange/main.s"
+	@echo "... tcp-echo-server/main.o"
+	@echo "... tcp-echo-server/main.i"
+	@echo "... tcp-echo-server/main.s"
+	@echo "... tcpClient/tcpClient.o"
+	@echo "... tcpClient/tcpClient.i"
+	@echo "... tcpClient/tcpClient.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... udp-dhcp/main.o"
+	@echo "... udp-dhcp/main.i"
+	@echo "... udp-dhcp/main.s"
 	@echo "... uvcat/main.o"
 	@echo "... uvcat/main.i"
 	@echo "... uvcat/main.s"

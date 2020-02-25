@@ -20,3 +20,21 @@ target_link_libraries(uvcat uv)
 
 add_executable(uvtee uvtee/main.cpp)
 target_link_libraries(uvtee uv)
+
+add_executable(onChange onChange/main.cpp)
+target_link_libraries(onChange uv)
+
+add_executable(tcpEchoServer tcp-echo-server/main.cpp)
+target_link_libraries(tcpEchoServer uv)
+
+add_executable(tcpClient tcpClient/tcpClient.cpp)
+target_link_libraries(tcpClient uv)
+
+add_executable(udp-dhcp udp-dhcp/main.cpp)
+target_link_libraries(udp-dhcp uv)
+
+add_executable(dns dns/main.cpp)
+target_link_libraries(dns uv)
+
+add_executable(interface interface/main.cpp)
+target_link_libraries(interface uv)

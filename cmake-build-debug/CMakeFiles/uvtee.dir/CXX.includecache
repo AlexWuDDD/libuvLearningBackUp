@@ -9,6 +9,8 @@
 /Users/wualex/Documents/libuvLearningNote/alexdef.h
 cstdlib
 -
+cstdio
+-
 uv.h
 /Users/wualex/Documents/libuvLearningNote/uv.h
 

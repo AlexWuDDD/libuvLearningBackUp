@@ -6,6 +6,7 @@
 #define LIBUVLEARNINGNOTE_ALEXDEF_H
 
 #include <cstdlib>
+#include <cstdio>
 #include "uv.h"
 
 #define ALLOC_LOOP (uv_loop_t*)malloc(sizeof(uv_loop_t))

@@ -17,6 +17,90 @@
 					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tcpEchoServer">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/tcpEchoServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcpEchoServer"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpEchoServer/fast">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/tcpEchoServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcpEchoServer/fast"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpClient">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/tcpClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcpClient"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpClient/fast">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/tcpClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcpClient/fast"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="uvtee">
 				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/uvtee" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
@@ -54,6 +138,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 uvtee/fast"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="interface">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/interface" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 interface"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="interface/fast">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/interface" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 interface/fast"/>
 					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -106,6 +232,132 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dns">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/dns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 dns"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dns/fast">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/dns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 dns/fast"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp-dhcp">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/udp-dhcp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-dhcp"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp-dhcp/fast">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/udp-dhcp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-dhcp/fast"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onChange">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/onChange" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 onChange"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onChange/fast">
+				<Option output="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/onChange" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/libuvLearningNote/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 onChange/fast"/>
 					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/local/bin/make -j8 -f &quot;/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -164,14 +416,32 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wualex/Documents/libuvLearningNote/dns/main.cpp">
+			<Option target="dns"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/libuvLearningNote/interface/main.cpp">
+			<Option target="interface"/>
+		</Unit>
 		<Unit filename="/Users/wualex/Documents/libuvLearningNote/main.cpp">
 			<Option target="libuvLearningNote"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/libuvLearningNote/onChange/main.cpp">
+			<Option target="onChange"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/libuvLearningNote/tcp-echo-server/main.cpp">
+			<Option target="tcpEchoServer"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/libuvLearningNote/tcpClient/tcpClient.cpp">
+			<Option target="tcpClient"/>
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/libuvLearningNote/test.cpp">
 			<Option target="libuvLearningNote"/>
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/libuvLearningNote/test.h">
 			<Option target="libuvLearningNote"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/libuvLearningNote/udp-dhcp/main.cpp">
+			<Option target="udp-dhcp"/>
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/libuvLearningNote/uvcat/main.cpp">
 			<Option target="uvcat"/>
