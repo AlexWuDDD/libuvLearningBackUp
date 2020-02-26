@@ -11,7 +11,7 @@ void alloc_buffer(uv_handle_t *handle, size_t suggested_size, uv_buf_t *buf) {
 
 void on_close(uv_handle_t* handle)
 {
-    printf("closed.");
+    printf("closed.\n");
 }
 
 void on_read(uv_stream_t* tcp, ssize_t nread, const uv_buf_t* buf)
@@ -55,9 +55,9 @@ void on_connect(uv_connect_t *connect, int status)
             {.base = "world", .len = 5}
     };
 
-    uv_write_t request;
+    //uv_write_t request;
 
-    uv_write(&request, stream, buffer, 2, on_write);
+    //uv_write(&request, stream, buffer, 2, on_write);
     uv_read_start(stream, alloc_buffer, on_read);
 }
 

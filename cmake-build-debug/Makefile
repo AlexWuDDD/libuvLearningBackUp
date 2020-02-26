@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/wualex/Documents/libuvLearningNote/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,292 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named uvwget
+
+# Build rule for target.
+uvwget: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uvwget
+.PHONY : uvwget
+
+# fast build rule for target.
+uvwget/fast:
+	$(MAKE) -f CMakeFiles/uvwget.dir/build.make CMakeFiles/uvwget.dir/build
+.PHONY : uvwget/fast
+
+#=============================================================================
+# Target rules for targets named ref_timer
+
+# Build rule for target.
+ref_timer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ref_timer
+.PHONY : ref_timer
+
+# fast build rule for target.
+ref_timer/fast:
+	$(MAKE) -f CMakeFiles/ref_timer.dir/build.make CMakeFiles/ref_timer.dir/build
+.PHONY : ref_timer/fast
+
+#=============================================================================
+# Target rules for targets named idle_computer
+
+# Build rule for target.
+idle_computer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 idle_computer
+.PHONY : idle_computer
+
+# fast build rule for target.
+idle_computer/fast:
+	$(MAKE) -f CMakeFiles/idle_computer.dir/build.make CMakeFiles/idle_computer.dir/build
+.PHONY : idle_computer/fast
+
+#=============================================================================
+# Target rules for targets named uvstop
+
+# Build rule for target.
+uvstop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uvstop
+.PHONY : uvstop
+
+# fast build rule for target.
+uvstop/fast:
+	$(MAKE) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/build
+.PHONY : uvstop/fast
+
+#=============================================================================
+# Target rules for targets named worker
+
+# Build rule for target.
+worker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 worker
+.PHONY : worker
+
+# fast build rule for target.
+worker/fast:
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/build
+.PHONY : worker/fast
+
+#=============================================================================
+# Target rules for targets named tty_gravity
+
+# Build rule for target.
+tty_gravity: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tty_gravity
+.PHONY : tty_gravity
+
+# fast build rule for target.
+tty_gravity/fast:
+	$(MAKE) -f CMakeFiles/tty_gravity.dir/build.make CMakeFiles/tty_gravity.dir/build
+.PHONY : tty_gravity/fast
+
+#=============================================================================
+# Target rules for targets named multi_echo_server
+
+# Build rule for target.
+multi_echo_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 multi_echo_server
+.PHONY : multi_echo_server
+
+# fast build rule for target.
+multi_echo_server/fast:
+	$(MAKE) -f CMakeFiles/multi_echo_server.dir/build.make CMakeFiles/multi_echo_server.dir/build
+.PHONY : multi_echo_server/fast
+
+#=============================================================================
+# Target rules for targets named queue_cancel
+
+# Build rule for target.
+queue_cancel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue_cancel
+.PHONY : queue_cancel
+
+# fast build rule for target.
+queue_cancel/fast:
+	$(MAKE) -f CMakeFiles/queue_cancel.dir/build.make CMakeFiles/queue_cancel.dir/build
+.PHONY : queue_cancel/fast
+
+#=============================================================================
+# Target rules for targets named tick
+
+# Build rule for target.
+tick: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tick
+.PHONY : tick
+
+# fast build rule for target.
+tick/fast:
+	$(MAKE) -f CMakeFiles/tick.dir/build.make CMakeFiles/tick.dir/build
+.PHONY : tick/fast
+
+#=============================================================================
+# Target rules for targets named signal
+
+# Build rule for target.
+signal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 signal
+.PHONY : signal
+
+# fast build rule for target.
+signal/fast:
+	$(MAKE) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/build
+.PHONY : signal/fast
+
+#=============================================================================
+# Target rules for targets named detach
+
+# Build rule for target.
+detach: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detach
+.PHONY : detach
+
+# fast build rule for target.
+detach/fast:
+	$(MAKE) -f CMakeFiles/detach.dir/build.make CMakeFiles/detach.dir/build
+.PHONY : detach/fast
+
+#=============================================================================
+# Target rules for targets named progress
+
+# Build rule for target.
+progress: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 progress
+.PHONY : progress
+
+# fast build rule for target.
+progress/fast:
+	$(MAKE) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/build
+.PHONY : progress/fast
+
+#=============================================================================
+# Target rules for targets named pipe_echo_server
+
+# Build rule for target.
+pipe_echo_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pipe_echo_server
+.PHONY : pipe_echo_server
+
+# fast build rule for target.
+pipe_echo_server/fast:
+	$(MAKE) -f CMakeFiles/pipe_echo_server.dir/build.make CMakeFiles/pipe_echo_server.dir/build
+.PHONY : pipe_echo_server/fast
+
+#=============================================================================
+# Target rules for targets named onChange
+
+# Build rule for target.
+onChange: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 onChange
+.PHONY : onChange
+
+# fast build rule for target.
+onChange/fast:
+	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/build
+.PHONY : onChange/fast
+
+#=============================================================================
+# Target rules for targets named proc_streams
+
+# Build rule for target.
+proc_streams: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 proc_streams
+.PHONY : proc_streams
+
+# fast build rule for target.
+proc_streams/fast:
+	$(MAKE) -f CMakeFiles/proc_streams.dir/build.make CMakeFiles/proc_streams.dir/build
+.PHONY : proc_streams/fast
+
+#=============================================================================
+# Target rules for targets named uv_once
+
+# Build rule for target.
+uv_once: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uv_once
+.PHONY : uv_once
+
+# fast build rule for target.
+uv_once/fast:
+	$(MAKE) -f CMakeFiles/uv_once.dir/build.make CMakeFiles/uv_once.dir/build
+.PHONY : uv_once/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named libuvLearningNote
+
+# Build rule for target.
+libuvLearningNote: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libuvLearningNote
+.PHONY : libuvLearningNote
+
+# fast build rule for target.
+libuvLearningNote/fast:
+	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/build
+.PHONY : libuvLearningNote/fast
+
+#=============================================================================
+# Target rules for targets named queue_work
+
+# Build rule for target.
+queue_work: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue_work
+.PHONY : queue_work
+
+# fast build rule for target.
+queue_work/fast:
+	$(MAKE) -f CMakeFiles/queue_work.dir/build.make CMakeFiles/queue_work.dir/build
+.PHONY : queue_work/fast
+
+#=============================================================================
+# Target rules for targets named locks
+
+# Build rule for target.
+locks: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 locks
+.PHONY : locks
+
+# fast build rule for target.
+locks/fast:
+	$(MAKE) -f CMakeFiles/locks.dir/build.make CMakeFiles/locks.dir/build
+.PHONY : locks/fast
+
+#=============================================================================
+# Target rules for targets named udp-dhcp
+
+# Build rule for target.
+udp-dhcp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 udp-dhcp
+.PHONY : udp-dhcp
+
+# fast build rule for target.
+udp-dhcp/fast:
+	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/build
+.PHONY : udp-dhcp/fast
+
+#=============================================================================
+# Target rules for targets named thread_creat
+
+# Build rule for target.
+thread_creat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 thread_creat
+.PHONY : thread_creat
+
+# fast build rule for target.
+thread_creat/fast:
+	$(MAKE) -f CMakeFiles/thread_creat.dir/build.make CMakeFiles/thread_creat.dir/build
+.PHONY : thread_creat/fast
+
+#=============================================================================
 # Target rules for targets named tcpEchoServer
 
 # Build rule for target.
@@ -137,6 +423,19 @@ tcpClient/fast:
 .PHONY : tcpClient/fast
 
 #=============================================================================
+# Target rules for targets named cgi
+
+# Build rule for target.
+cgi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cgi
+.PHONY : cgi
+
+# fast build rule for target.
+cgi/fast:
+	$(MAKE) -f CMakeFiles/cgi.dir/build.make CMakeFiles/cgi.dir/build
+.PHONY : cgi/fast
+
+#=============================================================================
 # Target rules for targets named uvtee
 
 # Build rule for target.
@@ -150,6 +449,19 @@ uvtee/fast:
 .PHONY : uvtee/fast
 
 #=============================================================================
+# Target rules for targets named tty
+
+# Build rule for target.
+tty: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tty
+.PHONY : tty
+
+# fast build rule for target.
+tty/fast:
+	$(MAKE) -f CMakeFiles/tty.dir/build.make CMakeFiles/tty.dir/build
+.PHONY : tty/fast
+
+#=============================================================================
 # Target rules for targets named interface
 
 # Build rule for target.
@@ -161,6 +473,19 @@ interface: cmake_check_build_system
 interface/fast:
 	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/build
 .PHONY : interface/fast
+
+#=============================================================================
+# Target rules for targets named Passingdatatoworkerthread
+
+# Build rule for target.
+Passingdatatoworkerthread: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Passingdatatoworkerthread
+.PHONY : Passingdatatoworkerthread
+
+# fast build rule for target.
+Passingdatatoworkerthread/fast:
+	$(MAKE) -f CMakeFiles/Passingdatatoworkerthread.dir/build.make CMakeFiles/Passingdatatoworkerthread.dir/build
+.PHONY : Passingdatatoworkerthread/fast
 
 #=============================================================================
 # Target rules for targets named uvcat
@@ -189,43 +514,125 @@ dns/fast:
 .PHONY : dns/fast
 
 #=============================================================================
-# Target rules for targets named udp-dhcp
+# Target rules for targets named spawn
 
 # Build rule for target.
-udp-dhcp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 udp-dhcp
-.PHONY : udp-dhcp
+spawn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spawn
+.PHONY : spawn
 
 # fast build rule for target.
-udp-dhcp/fast:
-	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/build
-.PHONY : udp-dhcp/fast
+spawn/fast:
+	$(MAKE) -f CMakeFiles/spawn.dir/build.make CMakeFiles/spawn.dir/build
+.PHONY : spawn/fast
 
-#=============================================================================
-# Target rules for targets named onChange
+Passingdatatoworkerthread/main.o: Passingdatatoworkerthread/main.cpp.o
 
-# Build rule for target.
-onChange: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 onChange
-.PHONY : onChange
+.PHONY : Passingdatatoworkerthread/main.o
 
-# fast build rule for target.
-onChange/fast:
-	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/build
-.PHONY : onChange/fast
+# target to build an object file
+Passingdatatoworkerthread/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Passingdatatoworkerthread.dir/build.make CMakeFiles/Passingdatatoworkerthread.dir/Passingdatatoworkerthread/main.cpp.o
+.PHONY : Passingdatatoworkerthread/main.cpp.o
 
-#=============================================================================
-# Target rules for targets named libuvLearningNote
+Passingdatatoworkerthread/main.i: Passingdatatoworkerthread/main.cpp.i
 
-# Build rule for target.
-libuvLearningNote: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libuvLearningNote
-.PHONY : libuvLearningNote
+.PHONY : Passingdatatoworkerthread/main.i
 
-# fast build rule for target.
-libuvLearningNote/fast:
-	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/build
-.PHONY : libuvLearningNote/fast
+# target to preprocess a source file
+Passingdatatoworkerthread/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Passingdatatoworkerthread.dir/build.make CMakeFiles/Passingdatatoworkerthread.dir/Passingdatatoworkerthread/main.cpp.i
+.PHONY : Passingdatatoworkerthread/main.cpp.i
+
+Passingdatatoworkerthread/main.s: Passingdatatoworkerthread/main.cpp.s
+
+.PHONY : Passingdatatoworkerthread/main.s
+
+# target to generate assembly for a file
+Passingdatatoworkerthread/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Passingdatatoworkerthread.dir/build.make CMakeFiles/Passingdatatoworkerthread.dir/Passingdatatoworkerthread/main.cpp.s
+.PHONY : Passingdatatoworkerthread/main.cpp.s
+
+cgi/main.o: cgi/main.cpp.o
+
+.PHONY : cgi/main.o
+
+# target to build an object file
+cgi/main.cpp.o:
+	$(MAKE) -f CMakeFiles/cgi.dir/build.make CMakeFiles/cgi.dir/cgi/main.cpp.o
+.PHONY : cgi/main.cpp.o
+
+cgi/main.i: cgi/main.cpp.i
+
+.PHONY : cgi/main.i
+
+# target to preprocess a source file
+cgi/main.cpp.i:
+	$(MAKE) -f CMakeFiles/cgi.dir/build.make CMakeFiles/cgi.dir/cgi/main.cpp.i
+.PHONY : cgi/main.cpp.i
+
+cgi/main.s: cgi/main.cpp.s
+
+.PHONY : cgi/main.s
+
+# target to generate assembly for a file
+cgi/main.cpp.s:
+	$(MAKE) -f CMakeFiles/cgi.dir/build.make CMakeFiles/cgi.dir/cgi/main.cpp.s
+.PHONY : cgi/main.cpp.s
+
+cgi/tick.o: cgi/tick.cpp.o
+
+.PHONY : cgi/tick.o
+
+# target to build an object file
+cgi/tick.cpp.o:
+	$(MAKE) -f CMakeFiles/tick.dir/build.make CMakeFiles/tick.dir/cgi/tick.cpp.o
+.PHONY : cgi/tick.cpp.o
+
+cgi/tick.i: cgi/tick.cpp.i
+
+.PHONY : cgi/tick.i
+
+# target to preprocess a source file
+cgi/tick.cpp.i:
+	$(MAKE) -f CMakeFiles/tick.dir/build.make CMakeFiles/tick.dir/cgi/tick.cpp.i
+.PHONY : cgi/tick.cpp.i
+
+cgi/tick.s: cgi/tick.cpp.s
+
+.PHONY : cgi/tick.s
+
+# target to generate assembly for a file
+cgi/tick.cpp.s:
+	$(MAKE) -f CMakeFiles/tick.dir/build.make CMakeFiles/tick.dir/cgi/tick.cpp.s
+.PHONY : cgi/tick.cpp.s
+
+detach/main.o: detach/main.cpp.o
+
+.PHONY : detach/main.o
+
+# target to build an object file
+detach/main.cpp.o:
+	$(MAKE) -f CMakeFiles/detach.dir/build.make CMakeFiles/detach.dir/detach/main.cpp.o
+.PHONY : detach/main.cpp.o
+
+detach/main.i: detach/main.cpp.i
+
+.PHONY : detach/main.i
+
+# target to preprocess a source file
+detach/main.cpp.i:
+	$(MAKE) -f CMakeFiles/detach.dir/build.make CMakeFiles/detach.dir/detach/main.cpp.i
+.PHONY : detach/main.cpp.i
+
+detach/main.s: detach/main.cpp.s
+
+.PHONY : detach/main.s
+
+# target to generate assembly for a file
+detach/main.cpp.s:
+	$(MAKE) -f CMakeFiles/detach.dir/build.make CMakeFiles/detach.dir/detach/main.cpp.s
+.PHONY : detach/main.cpp.s
 
 dns/main.o: dns/main.cpp.o
 
@@ -254,6 +661,33 @@ dns/main.cpp.s:
 	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/dns/main.cpp.s
 .PHONY : dns/main.cpp.s
 
+idle_computer/main.o: idle_computer/main.cpp.o
+
+.PHONY : idle_computer/main.o
+
+# target to build an object file
+idle_computer/main.cpp.o:
+	$(MAKE) -f CMakeFiles/idle_computer.dir/build.make CMakeFiles/idle_computer.dir/idle_computer/main.cpp.o
+.PHONY : idle_computer/main.cpp.o
+
+idle_computer/main.i: idle_computer/main.cpp.i
+
+.PHONY : idle_computer/main.i
+
+# target to preprocess a source file
+idle_computer/main.cpp.i:
+	$(MAKE) -f CMakeFiles/idle_computer.dir/build.make CMakeFiles/idle_computer.dir/idle_computer/main.cpp.i
+.PHONY : idle_computer/main.cpp.i
+
+idle_computer/main.s: idle_computer/main.cpp.s
+
+.PHONY : idle_computer/main.s
+
+# target to generate assembly for a file
+idle_computer/main.cpp.s:
+	$(MAKE) -f CMakeFiles/idle_computer.dir/build.make CMakeFiles/idle_computer.dir/idle_computer/main.cpp.s
+.PHONY : idle_computer/main.cpp.s
+
 interface/main.o: interface/main.cpp.o
 
 .PHONY : interface/main.o
@@ -280,6 +714,33 @@ interface/main.s: interface/main.cpp.s
 interface/main.cpp.s:
 	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/interface/main.cpp.s
 .PHONY : interface/main.cpp.s
+
+locks/main.o: locks/main.cpp.o
+
+.PHONY : locks/main.o
+
+# target to build an object file
+locks/main.cpp.o:
+	$(MAKE) -f CMakeFiles/locks.dir/build.make CMakeFiles/locks.dir/locks/main.cpp.o
+.PHONY : locks/main.cpp.o
+
+locks/main.i: locks/main.cpp.i
+
+.PHONY : locks/main.i
+
+# target to preprocess a source file
+locks/main.cpp.i:
+	$(MAKE) -f CMakeFiles/locks.dir/build.make CMakeFiles/locks.dir/locks/main.cpp.i
+.PHONY : locks/main.cpp.i
+
+locks/main.s: locks/main.cpp.s
+
+.PHONY : locks/main.s
+
+# target to generate assembly for a file
+locks/main.cpp.s:
+	$(MAKE) -f CMakeFiles/locks.dir/build.make CMakeFiles/locks.dir/locks/main.cpp.s
+.PHONY : locks/main.cpp.s
 
 main.o: main.cpp.o
 
@@ -308,6 +769,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+multi_echo_server/main.o: multi_echo_server/main.cpp.o
+
+.PHONY : multi_echo_server/main.o
+
+# target to build an object file
+multi_echo_server/main.cpp.o:
+	$(MAKE) -f CMakeFiles/multi_echo_server.dir/build.make CMakeFiles/multi_echo_server.dir/multi_echo_server/main.cpp.o
+.PHONY : multi_echo_server/main.cpp.o
+
+multi_echo_server/main.i: multi_echo_server/main.cpp.i
+
+.PHONY : multi_echo_server/main.i
+
+# target to preprocess a source file
+multi_echo_server/main.cpp.i:
+	$(MAKE) -f CMakeFiles/multi_echo_server.dir/build.make CMakeFiles/multi_echo_server.dir/multi_echo_server/main.cpp.i
+.PHONY : multi_echo_server/main.cpp.i
+
+multi_echo_server/main.s: multi_echo_server/main.cpp.s
+
+.PHONY : multi_echo_server/main.s
+
+# target to generate assembly for a file
+multi_echo_server/main.cpp.s:
+	$(MAKE) -f CMakeFiles/multi_echo_server.dir/build.make CMakeFiles/multi_echo_server.dir/multi_echo_server/main.cpp.s
+.PHONY : multi_echo_server/main.cpp.s
+
+multi_echo_server/woker.o: multi_echo_server/woker.cpp.o
+
+.PHONY : multi_echo_server/woker.o
+
+# target to build an object file
+multi_echo_server/woker.cpp.o:
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/multi_echo_server/woker.cpp.o
+.PHONY : multi_echo_server/woker.cpp.o
+
+multi_echo_server/woker.i: multi_echo_server/woker.cpp.i
+
+.PHONY : multi_echo_server/woker.i
+
+# target to preprocess a source file
+multi_echo_server/woker.cpp.i:
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/multi_echo_server/woker.cpp.i
+.PHONY : multi_echo_server/woker.cpp.i
+
+multi_echo_server/woker.s: multi_echo_server/woker.cpp.s
+
+.PHONY : multi_echo_server/woker.s
+
+# target to generate assembly for a file
+multi_echo_server/woker.cpp.s:
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/multi_echo_server/woker.cpp.s
+.PHONY : multi_echo_server/woker.cpp.s
+
 onChange/main.o: onChange/main.cpp.o
 
 .PHONY : onChange/main.o
@@ -334,6 +849,249 @@ onChange/main.s: onChange/main.cpp.s
 onChange/main.cpp.s:
 	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/onChange/main.cpp.s
 .PHONY : onChange/main.cpp.s
+
+pipe_echo_server/main.o: pipe_echo_server/main.cpp.o
+
+.PHONY : pipe_echo_server/main.o
+
+# target to build an object file
+pipe_echo_server/main.cpp.o:
+	$(MAKE) -f CMakeFiles/pipe_echo_server.dir/build.make CMakeFiles/pipe_echo_server.dir/pipe_echo_server/main.cpp.o
+.PHONY : pipe_echo_server/main.cpp.o
+
+pipe_echo_server/main.i: pipe_echo_server/main.cpp.i
+
+.PHONY : pipe_echo_server/main.i
+
+# target to preprocess a source file
+pipe_echo_server/main.cpp.i:
+	$(MAKE) -f CMakeFiles/pipe_echo_server.dir/build.make CMakeFiles/pipe_echo_server.dir/pipe_echo_server/main.cpp.i
+.PHONY : pipe_echo_server/main.cpp.i
+
+pipe_echo_server/main.s: pipe_echo_server/main.cpp.s
+
+.PHONY : pipe_echo_server/main.s
+
+# target to generate assembly for a file
+pipe_echo_server/main.cpp.s:
+	$(MAKE) -f CMakeFiles/pipe_echo_server.dir/build.make CMakeFiles/pipe_echo_server.dir/pipe_echo_server/main.cpp.s
+.PHONY : pipe_echo_server/main.cpp.s
+
+proc_streams/main.o: proc_streams/main.cpp.o
+
+.PHONY : proc_streams/main.o
+
+# target to build an object file
+proc_streams/main.cpp.o:
+	$(MAKE) -f CMakeFiles/proc_streams.dir/build.make CMakeFiles/proc_streams.dir/proc_streams/main.cpp.o
+.PHONY : proc_streams/main.cpp.o
+
+proc_streams/main.i: proc_streams/main.cpp.i
+
+.PHONY : proc_streams/main.i
+
+# target to preprocess a source file
+proc_streams/main.cpp.i:
+	$(MAKE) -f CMakeFiles/proc_streams.dir/build.make CMakeFiles/proc_streams.dir/proc_streams/main.cpp.i
+.PHONY : proc_streams/main.cpp.i
+
+proc_streams/main.s: proc_streams/main.cpp.s
+
+.PHONY : proc_streams/main.s
+
+# target to generate assembly for a file
+proc_streams/main.cpp.s:
+	$(MAKE) -f CMakeFiles/proc_streams.dir/build.make CMakeFiles/proc_streams.dir/proc_streams/main.cpp.s
+.PHONY : proc_streams/main.cpp.s
+
+proc_streams/test.o: proc_streams/test.cpp.o
+
+.PHONY : proc_streams/test.o
+
+# target to build an object file
+proc_streams/test.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/proc_streams/test.cpp.o
+.PHONY : proc_streams/test.cpp.o
+
+proc_streams/test.i: proc_streams/test.cpp.i
+
+.PHONY : proc_streams/test.i
+
+# target to preprocess a source file
+proc_streams/test.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/proc_streams/test.cpp.i
+.PHONY : proc_streams/test.cpp.i
+
+proc_streams/test.s: proc_streams/test.cpp.s
+
+.PHONY : proc_streams/test.s
+
+# target to generate assembly for a file
+proc_streams/test.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/proc_streams/test.cpp.s
+.PHONY : proc_streams/test.cpp.s
+
+progress/main.o: progress/main.cpp.o
+
+.PHONY : progress/main.o
+
+# target to build an object file
+progress/main.cpp.o:
+	$(MAKE) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/progress/main.cpp.o
+.PHONY : progress/main.cpp.o
+
+progress/main.i: progress/main.cpp.i
+
+.PHONY : progress/main.i
+
+# target to preprocess a source file
+progress/main.cpp.i:
+	$(MAKE) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/progress/main.cpp.i
+.PHONY : progress/main.cpp.i
+
+progress/main.s: progress/main.cpp.s
+
+.PHONY : progress/main.s
+
+# target to generate assembly for a file
+progress/main.cpp.s:
+	$(MAKE) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/progress/main.cpp.s
+.PHONY : progress/main.cpp.s
+
+queue_cancel/main.o: queue_cancel/main.cpp.o
+
+.PHONY : queue_cancel/main.o
+
+# target to build an object file
+queue_cancel/main.cpp.o:
+	$(MAKE) -f CMakeFiles/queue_cancel.dir/build.make CMakeFiles/queue_cancel.dir/queue_cancel/main.cpp.o
+.PHONY : queue_cancel/main.cpp.o
+
+queue_cancel/main.i: queue_cancel/main.cpp.i
+
+.PHONY : queue_cancel/main.i
+
+# target to preprocess a source file
+queue_cancel/main.cpp.i:
+	$(MAKE) -f CMakeFiles/queue_cancel.dir/build.make CMakeFiles/queue_cancel.dir/queue_cancel/main.cpp.i
+.PHONY : queue_cancel/main.cpp.i
+
+queue_cancel/main.s: queue_cancel/main.cpp.s
+
+.PHONY : queue_cancel/main.s
+
+# target to generate assembly for a file
+queue_cancel/main.cpp.s:
+	$(MAKE) -f CMakeFiles/queue_cancel.dir/build.make CMakeFiles/queue_cancel.dir/queue_cancel/main.cpp.s
+.PHONY : queue_cancel/main.cpp.s
+
+queue_work/main.o: queue_work/main.cpp.o
+
+.PHONY : queue_work/main.o
+
+# target to build an object file
+queue_work/main.cpp.o:
+	$(MAKE) -f CMakeFiles/queue_work.dir/build.make CMakeFiles/queue_work.dir/queue_work/main.cpp.o
+.PHONY : queue_work/main.cpp.o
+
+queue_work/main.i: queue_work/main.cpp.i
+
+.PHONY : queue_work/main.i
+
+# target to preprocess a source file
+queue_work/main.cpp.i:
+	$(MAKE) -f CMakeFiles/queue_work.dir/build.make CMakeFiles/queue_work.dir/queue_work/main.cpp.i
+.PHONY : queue_work/main.cpp.i
+
+queue_work/main.s: queue_work/main.cpp.s
+
+.PHONY : queue_work/main.s
+
+# target to generate assembly for a file
+queue_work/main.cpp.s:
+	$(MAKE) -f CMakeFiles/queue_work.dir/build.make CMakeFiles/queue_work.dir/queue_work/main.cpp.s
+.PHONY : queue_work/main.cpp.s
+
+ref_timer/main.o: ref_timer/main.cpp.o
+
+.PHONY : ref_timer/main.o
+
+# target to build an object file
+ref_timer/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ref_timer.dir/build.make CMakeFiles/ref_timer.dir/ref_timer/main.cpp.o
+.PHONY : ref_timer/main.cpp.o
+
+ref_timer/main.i: ref_timer/main.cpp.i
+
+.PHONY : ref_timer/main.i
+
+# target to preprocess a source file
+ref_timer/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ref_timer.dir/build.make CMakeFiles/ref_timer.dir/ref_timer/main.cpp.i
+.PHONY : ref_timer/main.cpp.i
+
+ref_timer/main.s: ref_timer/main.cpp.s
+
+.PHONY : ref_timer/main.s
+
+# target to generate assembly for a file
+ref_timer/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ref_timer.dir/build.make CMakeFiles/ref_timer.dir/ref_timer/main.cpp.s
+.PHONY : ref_timer/main.cpp.s
+
+signal/main.o: signal/main.cpp.o
+
+.PHONY : signal/main.o
+
+# target to build an object file
+signal/main.cpp.o:
+	$(MAKE) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/signal/main.cpp.o
+.PHONY : signal/main.cpp.o
+
+signal/main.i: signal/main.cpp.i
+
+.PHONY : signal/main.i
+
+# target to preprocess a source file
+signal/main.cpp.i:
+	$(MAKE) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/signal/main.cpp.i
+.PHONY : signal/main.cpp.i
+
+signal/main.s: signal/main.cpp.s
+
+.PHONY : signal/main.s
+
+# target to generate assembly for a file
+signal/main.cpp.s:
+	$(MAKE) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/signal/main.cpp.s
+.PHONY : signal/main.cpp.s
+
+spawn/main.o: spawn/main.cpp.o
+
+.PHONY : spawn/main.o
+
+# target to build an object file
+spawn/main.cpp.o:
+	$(MAKE) -f CMakeFiles/spawn.dir/build.make CMakeFiles/spawn.dir/spawn/main.cpp.o
+.PHONY : spawn/main.cpp.o
+
+spawn/main.i: spawn/main.cpp.i
+
+.PHONY : spawn/main.i
+
+# target to preprocess a source file
+spawn/main.cpp.i:
+	$(MAKE) -f CMakeFiles/spawn.dir/build.make CMakeFiles/spawn.dir/spawn/main.cpp.i
+.PHONY : spawn/main.cpp.i
+
+spawn/main.s: spawn/main.cpp.s
+
+.PHONY : spawn/main.s
+
+# target to generate assembly for a file
+spawn/main.cpp.s:
+	$(MAKE) -f CMakeFiles/spawn.dir/build.make CMakeFiles/spawn.dir/spawn/main.cpp.s
+.PHONY : spawn/main.cpp.s
 
 tcp-echo-server/main.o: tcp-echo-server/main.cpp.o
 
@@ -416,6 +1174,87 @@ test.cpp.s:
 	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/test.cpp.s
 .PHONY : test.cpp.s
 
+thread-creat/main.o: thread-creat/main.cpp.o
+
+.PHONY : thread-creat/main.o
+
+# target to build an object file
+thread-creat/main.cpp.o:
+	$(MAKE) -f CMakeFiles/thread_creat.dir/build.make CMakeFiles/thread_creat.dir/thread-creat/main.cpp.o
+.PHONY : thread-creat/main.cpp.o
+
+thread-creat/main.i: thread-creat/main.cpp.i
+
+.PHONY : thread-creat/main.i
+
+# target to preprocess a source file
+thread-creat/main.cpp.i:
+	$(MAKE) -f CMakeFiles/thread_creat.dir/build.make CMakeFiles/thread_creat.dir/thread-creat/main.cpp.i
+.PHONY : thread-creat/main.cpp.i
+
+thread-creat/main.s: thread-creat/main.cpp.s
+
+.PHONY : thread-creat/main.s
+
+# target to generate assembly for a file
+thread-creat/main.cpp.s:
+	$(MAKE) -f CMakeFiles/thread_creat.dir/build.make CMakeFiles/thread_creat.dir/thread-creat/main.cpp.s
+.PHONY : thread-creat/main.cpp.s
+
+tty/main.o: tty/main.cpp.o
+
+.PHONY : tty/main.o
+
+# target to build an object file
+tty/main.cpp.o:
+	$(MAKE) -f CMakeFiles/tty.dir/build.make CMakeFiles/tty.dir/tty/main.cpp.o
+.PHONY : tty/main.cpp.o
+
+tty/main.i: tty/main.cpp.i
+
+.PHONY : tty/main.i
+
+# target to preprocess a source file
+tty/main.cpp.i:
+	$(MAKE) -f CMakeFiles/tty.dir/build.make CMakeFiles/tty.dir/tty/main.cpp.i
+.PHONY : tty/main.cpp.i
+
+tty/main.s: tty/main.cpp.s
+
+.PHONY : tty/main.s
+
+# target to generate assembly for a file
+tty/main.cpp.s:
+	$(MAKE) -f CMakeFiles/tty.dir/build.make CMakeFiles/tty.dir/tty/main.cpp.s
+.PHONY : tty/main.cpp.s
+
+tty_gravity/main.o: tty_gravity/main.cpp.o
+
+.PHONY : tty_gravity/main.o
+
+# target to build an object file
+tty_gravity/main.cpp.o:
+	$(MAKE) -f CMakeFiles/tty_gravity.dir/build.make CMakeFiles/tty_gravity.dir/tty_gravity/main.cpp.o
+.PHONY : tty_gravity/main.cpp.o
+
+tty_gravity/main.i: tty_gravity/main.cpp.i
+
+.PHONY : tty_gravity/main.i
+
+# target to preprocess a source file
+tty_gravity/main.cpp.i:
+	$(MAKE) -f CMakeFiles/tty_gravity.dir/build.make CMakeFiles/tty_gravity.dir/tty_gravity/main.cpp.i
+.PHONY : tty_gravity/main.cpp.i
+
+tty_gravity/main.s: tty_gravity/main.cpp.s
+
+.PHONY : tty_gravity/main.s
+
+# target to generate assembly for a file
+tty_gravity/main.cpp.s:
+	$(MAKE) -f CMakeFiles/tty_gravity.dir/build.make CMakeFiles/tty_gravity.dir/tty_gravity/main.cpp.s
+.PHONY : tty_gravity/main.cpp.s
+
 udp-dhcp/main.o: udp-dhcp/main.cpp.o
 
 .PHONY : udp-dhcp/main.o
@@ -442,6 +1281,33 @@ udp-dhcp/main.s: udp-dhcp/main.cpp.s
 udp-dhcp/main.cpp.s:
 	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/udp-dhcp/main.cpp.s
 .PHONY : udp-dhcp/main.cpp.s
+
+uv_once/main.o: uv_once/main.cpp.o
+
+.PHONY : uv_once/main.o
+
+# target to build an object file
+uv_once/main.cpp.o:
+	$(MAKE) -f CMakeFiles/uv_once.dir/build.make CMakeFiles/uv_once.dir/uv_once/main.cpp.o
+.PHONY : uv_once/main.cpp.o
+
+uv_once/main.i: uv_once/main.cpp.i
+
+.PHONY : uv_once/main.i
+
+# target to preprocess a source file
+uv_once/main.cpp.i:
+	$(MAKE) -f CMakeFiles/uv_once.dir/build.make CMakeFiles/uv_once.dir/uv_once/main.cpp.i
+.PHONY : uv_once/main.cpp.i
+
+uv_once/main.s: uv_once/main.cpp.s
+
+.PHONY : uv_once/main.s
+
+# target to generate assembly for a file
+uv_once/main.cpp.s:
+	$(MAKE) -f CMakeFiles/uv_once.dir/build.make CMakeFiles/uv_once.dir/uv_once/main.cpp.s
+.PHONY : uv_once/main.cpp.s
 
 uvcat/main.o: uvcat/main.cpp.o
 
@@ -470,6 +1336,33 @@ uvcat/main.cpp.s:
 	$(MAKE) -f CMakeFiles/uvcat.dir/build.make CMakeFiles/uvcat.dir/uvcat/main.cpp.s
 .PHONY : uvcat/main.cpp.s
 
+uvstop/main.o: uvstop/main.cpp.o
+
+.PHONY : uvstop/main.o
+
+# target to build an object file
+uvstop/main.cpp.o:
+	$(MAKE) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/uvstop/main.cpp.o
+.PHONY : uvstop/main.cpp.o
+
+uvstop/main.i: uvstop/main.cpp.i
+
+.PHONY : uvstop/main.i
+
+# target to preprocess a source file
+uvstop/main.cpp.i:
+	$(MAKE) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/uvstop/main.cpp.i
+.PHONY : uvstop/main.cpp.i
+
+uvstop/main.s: uvstop/main.cpp.s
+
+.PHONY : uvstop/main.s
+
+# target to generate assembly for a file
+uvstop/main.cpp.s:
+	$(MAKE) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/uvstop/main.cpp.s
+.PHONY : uvstop/main.cpp.s
+
 uvtee/main.o: uvtee/main.cpp.o
 
 .PHONY : uvtee/main.o
@@ -497,35 +1390,136 @@ uvtee/main.cpp.s:
 	$(MAKE) -f CMakeFiles/uvtee.dir/build.make CMakeFiles/uvtee.dir/uvtee/main.cpp.s
 .PHONY : uvtee/main.cpp.s
 
+uvwget/main.o: uvwget/main.cpp.o
+
+.PHONY : uvwget/main.o
+
+# target to build an object file
+uvwget/main.cpp.o:
+	$(MAKE) -f CMakeFiles/uvwget.dir/build.make CMakeFiles/uvwget.dir/uvwget/main.cpp.o
+.PHONY : uvwget/main.cpp.o
+
+uvwget/main.i: uvwget/main.cpp.i
+
+.PHONY : uvwget/main.i
+
+# target to preprocess a source file
+uvwget/main.cpp.i:
+	$(MAKE) -f CMakeFiles/uvwget.dir/build.make CMakeFiles/uvwget.dir/uvwget/main.cpp.i
+.PHONY : uvwget/main.cpp.i
+
+uvwget/main.s: uvwget/main.cpp.s
+
+.PHONY : uvwget/main.s
+
+# target to generate assembly for a file
+uvwget/main.cpp.s:
+	$(MAKE) -f CMakeFiles/uvwget.dir/build.make CMakeFiles/uvwget.dir/uvwget/main.cpp.s
+.PHONY : uvwget/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... uvwget"
+	@echo "... ref_timer"
+	@echo "... idle_computer"
+	@echo "... uvstop"
+	@echo "... worker"
+	@echo "... tty_gravity"
+	@echo "... multi_echo_server"
+	@echo "... queue_cancel"
+	@echo "... tick"
+	@echo "... signal"
+	@echo "... edit_cache"
+	@echo "... detach"
+	@echo "... progress"
+	@echo "... pipe_echo_server"
+	@echo "... onChange"
+	@echo "... proc_streams"
+	@echo "... uv_once"
+	@echo "... test"
+	@echo "... libuvLearningNote"
+	@echo "... queue_work"
+	@echo "... locks"
+	@echo "... udp-dhcp"
+	@echo "... thread_creat"
 	@echo "... tcpEchoServer"
 	@echo "... tcpClient"
+	@echo "... cgi"
 	@echo "... uvtee"
+	@echo "... tty"
 	@echo "... interface"
-	@echo "... uvcat"
 	@echo "... rebuild_cache"
+	@echo "... Passingdatatoworkerthread"
+	@echo "... uvcat"
 	@echo "... dns"
-	@echo "... udp-dhcp"
-	@echo "... onChange"
-	@echo "... edit_cache"
-	@echo "... libuvLearningNote"
+	@echo "... spawn"
+	@echo "... Passingdatatoworkerthread/main.o"
+	@echo "... Passingdatatoworkerthread/main.i"
+	@echo "... Passingdatatoworkerthread/main.s"
+	@echo "... cgi/main.o"
+	@echo "... cgi/main.i"
+	@echo "... cgi/main.s"
+	@echo "... cgi/tick.o"
+	@echo "... cgi/tick.i"
+	@echo "... cgi/tick.s"
+	@echo "... detach/main.o"
+	@echo "... detach/main.i"
+	@echo "... detach/main.s"
 	@echo "... dns/main.o"
 	@echo "... dns/main.i"
 	@echo "... dns/main.s"
+	@echo "... idle_computer/main.o"
+	@echo "... idle_computer/main.i"
+	@echo "... idle_computer/main.s"
 	@echo "... interface/main.o"
 	@echo "... interface/main.i"
 	@echo "... interface/main.s"
+	@echo "... locks/main.o"
+	@echo "... locks/main.i"
+	@echo "... locks/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... multi_echo_server/main.o"
+	@echo "... multi_echo_server/main.i"
+	@echo "... multi_echo_server/main.s"
+	@echo "... multi_echo_server/woker.o"
+	@echo "... multi_echo_server/woker.i"
+	@echo "... multi_echo_server/woker.s"
 	@echo "... onChange/main.o"
 	@echo "... onChange/main.i"
 	@echo "... onChange/main.s"
+	@echo "... pipe_echo_server/main.o"
+	@echo "... pipe_echo_server/main.i"
+	@echo "... pipe_echo_server/main.s"
+	@echo "... proc_streams/main.o"
+	@echo "... proc_streams/main.i"
+	@echo "... proc_streams/main.s"
+	@echo "... proc_streams/test.o"
+	@echo "... proc_streams/test.i"
+	@echo "... proc_streams/test.s"
+	@echo "... progress/main.o"
+	@echo "... progress/main.i"
+	@echo "... progress/main.s"
+	@echo "... queue_cancel/main.o"
+	@echo "... queue_cancel/main.i"
+	@echo "... queue_cancel/main.s"
+	@echo "... queue_work/main.o"
+	@echo "... queue_work/main.i"
+	@echo "... queue_work/main.s"
+	@echo "... ref_timer/main.o"
+	@echo "... ref_timer/main.i"
+	@echo "... ref_timer/main.s"
+	@echo "... signal/main.o"
+	@echo "... signal/main.i"
+	@echo "... signal/main.s"
+	@echo "... spawn/main.o"
+	@echo "... spawn/main.i"
+	@echo "... spawn/main.s"
 	@echo "... tcp-echo-server/main.o"
 	@echo "... tcp-echo-server/main.i"
 	@echo "... tcp-echo-server/main.s"
@@ -535,15 +1529,33 @@ help:
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... thread-creat/main.o"
+	@echo "... thread-creat/main.i"
+	@echo "... thread-creat/main.s"
+	@echo "... tty/main.o"
+	@echo "... tty/main.i"
+	@echo "... tty/main.s"
+	@echo "... tty_gravity/main.o"
+	@echo "... tty_gravity/main.i"
+	@echo "... tty_gravity/main.s"
 	@echo "... udp-dhcp/main.o"
 	@echo "... udp-dhcp/main.i"
 	@echo "... udp-dhcp/main.s"
+	@echo "... uv_once/main.o"
+	@echo "... uv_once/main.i"
+	@echo "... uv_once/main.s"
 	@echo "... uvcat/main.o"
 	@echo "... uvcat/main.i"
 	@echo "... uvcat/main.s"
+	@echo "... uvstop/main.o"
+	@echo "... uvstop/main.i"
+	@echo "... uvstop/main.s"
 	@echo "... uvtee/main.o"
 	@echo "... uvtee/main.i"
 	@echo "... uvtee/main.s"
+	@echo "... uvwget/main.o"
+	@echo "... uvwget/main.i"
+	@echo "... uvwget/main.s"
 .PHONY : help
 
 

@@ -53,28 +53,74 @@ CMAKE_BINARY_DIR = /Users/wualex/Documents/libuvLearningNote/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/uvwget.dir/all
+all: CMakeFiles/ref_timer.dir/all
+all: CMakeFiles/idle_computer.dir/all
+all: CMakeFiles/uvstop.dir/all
+all: CMakeFiles/worker.dir/all
+all: CMakeFiles/tty_gravity.dir/all
+all: CMakeFiles/multi_echo_server.dir/all
+all: CMakeFiles/queue_cancel.dir/all
+all: CMakeFiles/tick.dir/all
+all: CMakeFiles/signal.dir/all
+all: CMakeFiles/detach.dir/all
+all: CMakeFiles/progress.dir/all
+all: CMakeFiles/pipe_echo_server.dir/all
+all: CMakeFiles/onChange.dir/all
+all: CMakeFiles/proc_streams.dir/all
+all: CMakeFiles/uv_once.dir/all
+all: CMakeFiles/test.dir/all
+all: CMakeFiles/libuvLearningNote.dir/all
+all: CMakeFiles/queue_work.dir/all
+all: CMakeFiles/locks.dir/all
+all: CMakeFiles/udp-dhcp.dir/all
+all: CMakeFiles/thread_creat.dir/all
 all: CMakeFiles/tcpEchoServer.dir/all
 all: CMakeFiles/tcpClient.dir/all
+all: CMakeFiles/cgi.dir/all
 all: CMakeFiles/uvtee.dir/all
+all: CMakeFiles/tty.dir/all
 all: CMakeFiles/interface.dir/all
+all: CMakeFiles/Passingdatatoworkerthread.dir/all
 all: CMakeFiles/uvcat.dir/all
 all: CMakeFiles/dns.dir/all
-all: CMakeFiles/udp-dhcp.dir/all
-all: CMakeFiles/onChange.dir/all
-all: CMakeFiles/libuvLearningNote.dir/all
+all: CMakeFiles/spawn.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/uvwget.dir/clean
+clean: CMakeFiles/ref_timer.dir/clean
+clean: CMakeFiles/idle_computer.dir/clean
+clean: CMakeFiles/uvstop.dir/clean
+clean: CMakeFiles/worker.dir/clean
+clean: CMakeFiles/tty_gravity.dir/clean
+clean: CMakeFiles/multi_echo_server.dir/clean
+clean: CMakeFiles/queue_cancel.dir/clean
+clean: CMakeFiles/tick.dir/clean
+clean: CMakeFiles/signal.dir/clean
+clean: CMakeFiles/detach.dir/clean
+clean: CMakeFiles/progress.dir/clean
+clean: CMakeFiles/pipe_echo_server.dir/clean
+clean: CMakeFiles/onChange.dir/clean
+clean: CMakeFiles/proc_streams.dir/clean
+clean: CMakeFiles/uv_once.dir/clean
+clean: CMakeFiles/test.dir/clean
+clean: CMakeFiles/libuvLearningNote.dir/clean
+clean: CMakeFiles/queue_work.dir/clean
+clean: CMakeFiles/locks.dir/clean
+clean: CMakeFiles/udp-dhcp.dir/clean
+clean: CMakeFiles/thread_creat.dir/clean
 clean: CMakeFiles/tcpEchoServer.dir/clean
 clean: CMakeFiles/tcpClient.dir/clean
+clean: CMakeFiles/cgi.dir/clean
 clean: CMakeFiles/uvtee.dir/clean
+clean: CMakeFiles/tty.dir/clean
 clean: CMakeFiles/interface.dir/clean
+clean: CMakeFiles/Passingdatatoworkerthread.dir/clean
 clean: CMakeFiles/uvcat.dir/clean
 clean: CMakeFiles/dns.dir/clean
-clean: CMakeFiles/udp-dhcp.dir/clean
-clean: CMakeFiles/onChange.dir/clean
-clean: CMakeFiles/libuvLearningNote.dir/clean
+clean: CMakeFiles/spawn.dir/clean
 
 .PHONY : clean
 
@@ -84,13 +130,607 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/uvwget.dir
+
+# All Build rule for target.
+CMakeFiles/uvwget.dir/all:
+	$(MAKE) -f CMakeFiles/uvwget.dir/build.make CMakeFiles/uvwget.dir/depend
+	$(MAKE) -f CMakeFiles/uvwget.dir/build.make CMakeFiles/uvwget.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=62,63 "Built target uvwget"
+.PHONY : CMakeFiles/uvwget.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/uvwget.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uvwget.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/uvwget.dir/rule
+
+# Convenience name for target.
+uvwget: CMakeFiles/uvwget.dir/rule
+
+.PHONY : uvwget
+
+# clean rule for target.
+CMakeFiles/uvwget.dir/clean:
+	$(MAKE) -f CMakeFiles/uvwget.dir/build.make CMakeFiles/uvwget.dir/clean
+.PHONY : CMakeFiles/uvwget.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ref_timer.dir
+
+# All Build rule for target.
+CMakeFiles/ref_timer.dir/all:
+	$(MAKE) -f CMakeFiles/ref_timer.dir/build.make CMakeFiles/ref_timer.dir/depend
+	$(MAKE) -f CMakeFiles/ref_timer.dir/build.make CMakeFiles/ref_timer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target ref_timer"
+.PHONY : CMakeFiles/ref_timer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ref_timer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ref_timer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ref_timer.dir/rule
+
+# Convenience name for target.
+ref_timer: CMakeFiles/ref_timer.dir/rule
+
+.PHONY : ref_timer
+
+# clean rule for target.
+CMakeFiles/ref_timer.dir/clean:
+	$(MAKE) -f CMakeFiles/ref_timer.dir/build.make CMakeFiles/ref_timer.dir/clean
+.PHONY : CMakeFiles/ref_timer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/idle_computer.dir
+
+# All Build rule for target.
+CMakeFiles/idle_computer.dir/all:
+	$(MAKE) -f CMakeFiles/idle_computer.dir/build.make CMakeFiles/idle_computer.dir/depend
+	$(MAKE) -f CMakeFiles/idle_computer.dir/build.make CMakeFiles/idle_computer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target idle_computer"
+.PHONY : CMakeFiles/idle_computer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/idle_computer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/idle_computer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/idle_computer.dir/rule
+
+# Convenience name for target.
+idle_computer: CMakeFiles/idle_computer.dir/rule
+
+.PHONY : idle_computer
+
+# clean rule for target.
+CMakeFiles/idle_computer.dir/clean:
+	$(MAKE) -f CMakeFiles/idle_computer.dir/build.make CMakeFiles/idle_computer.dir/clean
+.PHONY : CMakeFiles/idle_computer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/uvstop.dir
+
+# All Build rule for target.
+CMakeFiles/uvstop.dir/all:
+	$(MAKE) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/depend
+	$(MAKE) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target uvstop"
+.PHONY : CMakeFiles/uvstop.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/uvstop.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uvstop.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/uvstop.dir/rule
+
+# Convenience name for target.
+uvstop: CMakeFiles/uvstop.dir/rule
+
+.PHONY : uvstop
+
+# clean rule for target.
+CMakeFiles/uvstop.dir/clean:
+	$(MAKE) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/clean
+.PHONY : CMakeFiles/uvstop.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/worker.dir
+
+# All Build rule for target.
+CMakeFiles/worker.dir/all:
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/depend
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target worker"
+.PHONY : CMakeFiles/worker.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/worker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/worker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/worker.dir/rule
+
+# Convenience name for target.
+worker: CMakeFiles/worker.dir/rule
+
+.PHONY : worker
+
+# clean rule for target.
+CMakeFiles/worker.dir/clean:
+	$(MAKE) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/clean
+.PHONY : CMakeFiles/worker.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tty_gravity.dir
+
+# All Build rule for target.
+CMakeFiles/tty_gravity.dir/all:
+	$(MAKE) -f CMakeFiles/tty_gravity.dir/build.make CMakeFiles/tty_gravity.dir/depend
+	$(MAKE) -f CMakeFiles/tty_gravity.dir/build.make CMakeFiles/tty_gravity.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target tty_gravity"
+.PHONY : CMakeFiles/tty_gravity.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tty_gravity.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tty_gravity.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tty_gravity.dir/rule
+
+# Convenience name for target.
+tty_gravity: CMakeFiles/tty_gravity.dir/rule
+
+.PHONY : tty_gravity
+
+# clean rule for target.
+CMakeFiles/tty_gravity.dir/clean:
+	$(MAKE) -f CMakeFiles/tty_gravity.dir/build.make CMakeFiles/tty_gravity.dir/clean
+.PHONY : CMakeFiles/tty_gravity.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/multi_echo_server.dir
+
+# All Build rule for target.
+CMakeFiles/multi_echo_server.dir/all:
+	$(MAKE) -f CMakeFiles/multi_echo_server.dir/build.make CMakeFiles/multi_echo_server.dir/depend
+	$(MAKE) -f CMakeFiles/multi_echo_server.dir/build.make CMakeFiles/multi_echo_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target multi_echo_server"
+.PHONY : CMakeFiles/multi_echo_server.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/multi_echo_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multi_echo_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/multi_echo_server.dir/rule
+
+# Convenience name for target.
+multi_echo_server: CMakeFiles/multi_echo_server.dir/rule
+
+.PHONY : multi_echo_server
+
+# clean rule for target.
+CMakeFiles/multi_echo_server.dir/clean:
+	$(MAKE) -f CMakeFiles/multi_echo_server.dir/build.make CMakeFiles/multi_echo_server.dir/clean
+.PHONY : CMakeFiles/multi_echo_server.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/queue_cancel.dir
+
+# All Build rule for target.
+CMakeFiles/queue_cancel.dir/all:
+	$(MAKE) -f CMakeFiles/queue_cancel.dir/build.make CMakeFiles/queue_cancel.dir/depend
+	$(MAKE) -f CMakeFiles/queue_cancel.dir/build.make CMakeFiles/queue_cancel.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target queue_cancel"
+.PHONY : CMakeFiles/queue_cancel.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/queue_cancel.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/queue_cancel.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/queue_cancel.dir/rule
+
+# Convenience name for target.
+queue_cancel: CMakeFiles/queue_cancel.dir/rule
+
+.PHONY : queue_cancel
+
+# clean rule for target.
+CMakeFiles/queue_cancel.dir/clean:
+	$(MAKE) -f CMakeFiles/queue_cancel.dir/build.make CMakeFiles/queue_cancel.dir/clean
+.PHONY : CMakeFiles/queue_cancel.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tick.dir
+
+# All Build rule for target.
+CMakeFiles/tick.dir/all:
+	$(MAKE) -f CMakeFiles/tick.dir/build.make CMakeFiles/tick.dir/depend
+	$(MAKE) -f CMakeFiles/tick.dir/build.make CMakeFiles/tick.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target tick"
+.PHONY : CMakeFiles/tick.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tick.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tick.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tick.dir/rule
+
+# Convenience name for target.
+tick: CMakeFiles/tick.dir/rule
+
+.PHONY : tick
+
+# clean rule for target.
+CMakeFiles/tick.dir/clean:
+	$(MAKE) -f CMakeFiles/tick.dir/build.make CMakeFiles/tick.dir/clean
+.PHONY : CMakeFiles/tick.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/signal.dir
+
+# All Build rule for target.
+CMakeFiles/signal.dir/all:
+	$(MAKE) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/depend
+	$(MAKE) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target signal"
+.PHONY : CMakeFiles/signal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/signal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/signal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/signal.dir/rule
+
+# Convenience name for target.
+signal: CMakeFiles/signal.dir/rule
+
+.PHONY : signal
+
+# clean rule for target.
+CMakeFiles/signal.dir/clean:
+	$(MAKE) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/clean
+.PHONY : CMakeFiles/signal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/detach.dir
+
+# All Build rule for target.
+CMakeFiles/detach.dir/all:
+	$(MAKE) -f CMakeFiles/detach.dir/build.make CMakeFiles/detach.dir/depend
+	$(MAKE) -f CMakeFiles/detach.dir/build.make CMakeFiles/detach.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target detach"
+.PHONY : CMakeFiles/detach.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/detach.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/detach.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/detach.dir/rule
+
+# Convenience name for target.
+detach: CMakeFiles/detach.dir/rule
+
+.PHONY : detach
+
+# clean rule for target.
+CMakeFiles/detach.dir/clean:
+	$(MAKE) -f CMakeFiles/detach.dir/build.make CMakeFiles/detach.dir/clean
+.PHONY : CMakeFiles/detach.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/progress.dir
+
+# All Build rule for target.
+CMakeFiles/progress.dir/all:
+	$(MAKE) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/depend
+	$(MAKE) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target progress"
+.PHONY : CMakeFiles/progress.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/progress.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/progress.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/progress.dir/rule
+
+# Convenience name for target.
+progress: CMakeFiles/progress.dir/rule
+
+.PHONY : progress
+
+# clean rule for target.
+CMakeFiles/progress.dir/clean:
+	$(MAKE) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/clean
+.PHONY : CMakeFiles/progress.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pipe_echo_server.dir
+
+# All Build rule for target.
+CMakeFiles/pipe_echo_server.dir/all:
+	$(MAKE) -f CMakeFiles/pipe_echo_server.dir/build.make CMakeFiles/pipe_echo_server.dir/depend
+	$(MAKE) -f CMakeFiles/pipe_echo_server.dir/build.make CMakeFiles/pipe_echo_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target pipe_echo_server"
+.PHONY : CMakeFiles/pipe_echo_server.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pipe_echo_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pipe_echo_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pipe_echo_server.dir/rule
+
+# Convenience name for target.
+pipe_echo_server: CMakeFiles/pipe_echo_server.dir/rule
+
+.PHONY : pipe_echo_server
+
+# clean rule for target.
+CMakeFiles/pipe_echo_server.dir/clean:
+	$(MAKE) -f CMakeFiles/pipe_echo_server.dir/build.make CMakeFiles/pipe_echo_server.dir/clean
+.PHONY : CMakeFiles/pipe_echo_server.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/onChange.dir
+
+# All Build rule for target.
+CMakeFiles/onChange.dir/all:
+	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/depend
+	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target onChange"
+.PHONY : CMakeFiles/onChange.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/onChange.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/onChange.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/onChange.dir/rule
+
+# Convenience name for target.
+onChange: CMakeFiles/onChange.dir/rule
+
+.PHONY : onChange
+
+# clean rule for target.
+CMakeFiles/onChange.dir/clean:
+	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/clean
+.PHONY : CMakeFiles/onChange.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/proc_streams.dir
+
+# All Build rule for target.
+CMakeFiles/proc_streams.dir/all:
+	$(MAKE) -f CMakeFiles/proc_streams.dir/build.make CMakeFiles/proc_streams.dir/depend
+	$(MAKE) -f CMakeFiles/proc_streams.dir/build.make CMakeFiles/proc_streams.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target proc_streams"
+.PHONY : CMakeFiles/proc_streams.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/proc_streams.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/proc_streams.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/proc_streams.dir/rule
+
+# Convenience name for target.
+proc_streams: CMakeFiles/proc_streams.dir/rule
+
+.PHONY : proc_streams
+
+# clean rule for target.
+CMakeFiles/proc_streams.dir/clean:
+	$(MAKE) -f CMakeFiles/proc_streams.dir/build.make CMakeFiles/proc_streams.dir/clean
+.PHONY : CMakeFiles/proc_streams.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/uv_once.dir
+
+# All Build rule for target.
+CMakeFiles/uv_once.dir/all:
+	$(MAKE) -f CMakeFiles/uv_once.dir/build.make CMakeFiles/uv_once.dir/depend
+	$(MAKE) -f CMakeFiles/uv_once.dir/build.make CMakeFiles/uv_once.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target uv_once"
+.PHONY : CMakeFiles/uv_once.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/uv_once.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uv_once.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/uv_once.dir/rule
+
+# Convenience name for target.
+uv_once: CMakeFiles/uv_once.dir/rule
+
+.PHONY : uv_once
+
+# clean rule for target.
+CMakeFiles/uv_once.dir/clean:
+	$(MAKE) -f CMakeFiles/uv_once.dir/build.make CMakeFiles/uv_once.dir/clean
+.PHONY : CMakeFiles/uv_once.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/libuvLearningNote.dir
+
+# All Build rule for target.
+CMakeFiles/libuvLearningNote.dir/all:
+	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/depend
+	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=13,14,15 "Built target libuvLearningNote"
+.PHONY : CMakeFiles/libuvLearningNote.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/libuvLearningNote.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvLearningNote.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/libuvLearningNote.dir/rule
+
+# Convenience name for target.
+libuvLearningNote: CMakeFiles/libuvLearningNote.dir/rule
+
+.PHONY : libuvLearningNote
+
+# clean rule for target.
+CMakeFiles/libuvLearningNote.dir/clean:
+	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/clean
+.PHONY : CMakeFiles/libuvLearningNote.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/queue_work.dir
+
+# All Build rule for target.
+CMakeFiles/queue_work.dir/all:
+	$(MAKE) -f CMakeFiles/queue_work.dir/build.make CMakeFiles/queue_work.dir/depend
+	$(MAKE) -f CMakeFiles/queue_work.dir/build.make CMakeFiles/queue_work.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target queue_work"
+.PHONY : CMakeFiles/queue_work.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/queue_work.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/queue_work.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/queue_work.dir/rule
+
+# Convenience name for target.
+queue_work: CMakeFiles/queue_work.dir/rule
+
+.PHONY : queue_work
+
+# clean rule for target.
+CMakeFiles/queue_work.dir/clean:
+	$(MAKE) -f CMakeFiles/queue_work.dir/build.make CMakeFiles/queue_work.dir/clean
+.PHONY : CMakeFiles/queue_work.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/locks.dir
+
+# All Build rule for target.
+CMakeFiles/locks.dir/all:
+	$(MAKE) -f CMakeFiles/locks.dir/build.make CMakeFiles/locks.dir/depend
+	$(MAKE) -f CMakeFiles/locks.dir/build.make CMakeFiles/locks.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target locks"
+.PHONY : CMakeFiles/locks.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/locks.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/locks.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/locks.dir/rule
+
+# Convenience name for target.
+locks: CMakeFiles/locks.dir/rule
+
+.PHONY : locks
+
+# clean rule for target.
+CMakeFiles/locks.dir/clean:
+	$(MAKE) -f CMakeFiles/locks.dir/build.make CMakeFiles/locks.dir/clean
+.PHONY : CMakeFiles/locks.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/udp-dhcp.dir
+
+# All Build rule for target.
+CMakeFiles/udp-dhcp.dir/all:
+	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/depend
+	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target udp-dhcp"
+.PHONY : CMakeFiles/udp-dhcp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/udp-dhcp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/udp-dhcp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/udp-dhcp.dir/rule
+
+# Convenience name for target.
+udp-dhcp: CMakeFiles/udp-dhcp.dir/rule
+
+.PHONY : udp-dhcp
+
+# clean rule for target.
+CMakeFiles/udp-dhcp.dir/clean:
+	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/clean
+.PHONY : CMakeFiles/udp-dhcp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/thread_creat.dir
+
+# All Build rule for target.
+CMakeFiles/thread_creat.dir/all:
+	$(MAKE) -f CMakeFiles/thread_creat.dir/build.make CMakeFiles/thread_creat.dir/depend
+	$(MAKE) -f CMakeFiles/thread_creat.dir/build.make CMakeFiles/thread_creat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target thread_creat"
+.PHONY : CMakeFiles/thread_creat.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/thread_creat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/thread_creat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/thread_creat.dir/rule
+
+# Convenience name for target.
+thread_creat: CMakeFiles/thread_creat.dir/rule
+
+.PHONY : thread_creat
+
+# clean rule for target.
+CMakeFiles/thread_creat.dir/clean:
+	$(MAKE) -f CMakeFiles/thread_creat.dir/build.make CMakeFiles/thread_creat.dir/clean
+.PHONY : CMakeFiles/thread_creat.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tcpEchoServer.dir
 
 # All Build rule for target.
 CMakeFiles/tcpEchoServer.dir/all:
 	$(MAKE) -f CMakeFiles/tcpEchoServer.dir/build.make CMakeFiles/tcpEchoServer.dir/depend
 	$(MAKE) -f CMakeFiles/tcpEchoServer.dir/build.make CMakeFiles/tcpEchoServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target tcpEchoServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target tcpEchoServer"
 .PHONY : CMakeFiles/tcpEchoServer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -117,7 +757,7 @@ CMakeFiles/tcpEchoServer.dir/clean:
 CMakeFiles/tcpClient.dir/all:
 	$(MAKE) -f CMakeFiles/tcpClient.dir/build.make CMakeFiles/tcpClient.dir/depend
 	$(MAKE) -f CMakeFiles/tcpClient.dir/build.make CMakeFiles/tcpClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target tcpClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target tcpClient"
 .PHONY : CMakeFiles/tcpClient.dir/all
 
 # Build rule for subdir invocation for target.
@@ -138,13 +778,40 @@ CMakeFiles/tcpClient.dir/clean:
 .PHONY : CMakeFiles/tcpClient.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/cgi.dir
+
+# All Build rule for target.
+CMakeFiles/cgi.dir/all:
+	$(MAKE) -f CMakeFiles/cgi.dir/build.make CMakeFiles/cgi.dir/depend
+	$(MAKE) -f CMakeFiles/cgi.dir/build.make CMakeFiles/cgi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target cgi"
+.PHONY : CMakeFiles/cgi.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cgi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cgi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/cgi.dir/rule
+
+# Convenience name for target.
+cgi: CMakeFiles/cgi.dir/rule
+
+.PHONY : cgi
+
+# clean rule for target.
+CMakeFiles/cgi.dir/clean:
+	$(MAKE) -f CMakeFiles/cgi.dir/build.make CMakeFiles/cgi.dir/clean
+.PHONY : CMakeFiles/cgi.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/uvtee.dir
 
 # All Build rule for target.
 CMakeFiles/uvtee.dir/all:
 	$(MAKE) -f CMakeFiles/uvtee.dir/build.make CMakeFiles/uvtee.dir/depend
 	$(MAKE) -f CMakeFiles/uvtee.dir/build.make CMakeFiles/uvtee.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target uvtee"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target uvtee"
 .PHONY : CMakeFiles/uvtee.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,13 +832,40 @@ CMakeFiles/uvtee.dir/clean:
 .PHONY : CMakeFiles/uvtee.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/tty.dir
+
+# All Build rule for target.
+CMakeFiles/tty.dir/all:
+	$(MAKE) -f CMakeFiles/tty.dir/build.make CMakeFiles/tty.dir/depend
+	$(MAKE) -f CMakeFiles/tty.dir/build.make CMakeFiles/tty.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target tty"
+.PHONY : CMakeFiles/tty.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tty.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tty.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tty.dir/rule
+
+# Convenience name for target.
+tty: CMakeFiles/tty.dir/rule
+
+.PHONY : tty
+
+# clean rule for target.
+CMakeFiles/tty.dir/clean:
+	$(MAKE) -f CMakeFiles/tty.dir/build.make CMakeFiles/tty.dir/clean
+.PHONY : CMakeFiles/tty.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/interface.dir
 
 # All Build rule for target.
 CMakeFiles/interface.dir/all:
 	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/depend
 	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target interface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target interface"
 .PHONY : CMakeFiles/interface.dir/all
 
 # Build rule for subdir invocation for target.
@@ -192,13 +886,40 @@ CMakeFiles/interface.dir/clean:
 .PHONY : CMakeFiles/interface.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Passingdatatoworkerthread.dir
+
+# All Build rule for target.
+CMakeFiles/Passingdatatoworkerthread.dir/all:
+	$(MAKE) -f CMakeFiles/Passingdatatoworkerthread.dir/build.make CMakeFiles/Passingdatatoworkerthread.dir/depend
+	$(MAKE) -f CMakeFiles/Passingdatatoworkerthread.dir/build.make CMakeFiles/Passingdatatoworkerthread.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Passingdatatoworkerthread"
+.PHONY : CMakeFiles/Passingdatatoworkerthread.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Passingdatatoworkerthread.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Passingdatatoworkerthread.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Passingdatatoworkerthread.dir/rule
+
+# Convenience name for target.
+Passingdatatoworkerthread: CMakeFiles/Passingdatatoworkerthread.dir/rule
+
+.PHONY : Passingdatatoworkerthread
+
+# clean rule for target.
+CMakeFiles/Passingdatatoworkerthread.dir/clean:
+	$(MAKE) -f CMakeFiles/Passingdatatoworkerthread.dir/build.make CMakeFiles/Passingdatatoworkerthread.dir/clean
+.PHONY : CMakeFiles/Passingdatatoworkerthread.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/uvcat.dir
 
 # All Build rule for target.
 CMakeFiles/uvcat.dir/all:
 	$(MAKE) -f CMakeFiles/uvcat.dir/build.make CMakeFiles/uvcat.dir/depend
 	$(MAKE) -f CMakeFiles/uvcat.dir/build.make CMakeFiles/uvcat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target uvcat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target uvcat"
 .PHONY : CMakeFiles/uvcat.dir/all
 
 # Build rule for subdir invocation for target.
@@ -225,7 +946,7 @@ CMakeFiles/uvcat.dir/clean:
 CMakeFiles/dns.dir/all:
 	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/depend
 	$(MAKE) -f CMakeFiles/dns.dir/build.make CMakeFiles/dns.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target dns"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target dns"
 .PHONY : CMakeFiles/dns.dir/all
 
 # Build rule for subdir invocation for target.
@@ -246,85 +967,31 @@ CMakeFiles/dns.dir/clean:
 .PHONY : CMakeFiles/dns.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/udp-dhcp.dir
+# Target rules for target CMakeFiles/spawn.dir
 
 # All Build rule for target.
-CMakeFiles/udp-dhcp.dir/all:
-	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/depend
-	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target udp-dhcp"
-.PHONY : CMakeFiles/udp-dhcp.dir/all
+CMakeFiles/spawn.dir/all:
+	$(MAKE) -f CMakeFiles/spawn.dir/build.make CMakeFiles/spawn.dir/depend
+	$(MAKE) -f CMakeFiles/spawn.dir/build.make CMakeFiles/spawn.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target spawn"
+.PHONY : CMakeFiles/spawn.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/udp-dhcp.dir/rule: cmake_check_build_system
+CMakeFiles/spawn.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/udp-dhcp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/spawn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/udp-dhcp.dir/rule
+.PHONY : CMakeFiles/spawn.dir/rule
 
 # Convenience name for target.
-udp-dhcp: CMakeFiles/udp-dhcp.dir/rule
+spawn: CMakeFiles/spawn.dir/rule
 
-.PHONY : udp-dhcp
-
-# clean rule for target.
-CMakeFiles/udp-dhcp.dir/clean:
-	$(MAKE) -f CMakeFiles/udp-dhcp.dir/build.make CMakeFiles/udp-dhcp.dir/clean
-.PHONY : CMakeFiles/udp-dhcp.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/onChange.dir
-
-# All Build rule for target.
-CMakeFiles/onChange.dir/all:
-	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/depend
-	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target onChange"
-.PHONY : CMakeFiles/onChange.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/onChange.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/onChange.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/onChange.dir/rule
-
-# Convenience name for target.
-onChange: CMakeFiles/onChange.dir/rule
-
-.PHONY : onChange
+.PHONY : spawn
 
 # clean rule for target.
-CMakeFiles/onChange.dir/clean:
-	$(MAKE) -f CMakeFiles/onChange.dir/build.make CMakeFiles/onChange.dir/clean
-.PHONY : CMakeFiles/onChange.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/libuvLearningNote.dir
-
-# All Build rule for target.
-CMakeFiles/libuvLearningNote.dir/all:
-	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/depend
-	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target libuvLearningNote"
-.PHONY : CMakeFiles/libuvLearningNote.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/libuvLearningNote.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libuvLearningNote.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/libuvLearningNote/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/libuvLearningNote.dir/rule
-
-# Convenience name for target.
-libuvLearningNote: CMakeFiles/libuvLearningNote.dir/rule
-
-.PHONY : libuvLearningNote
-
-# clean rule for target.
-CMakeFiles/libuvLearningNote.dir/clean:
-	$(MAKE) -f CMakeFiles/libuvLearningNote.dir/build.make CMakeFiles/libuvLearningNote.dir/clean
-.PHONY : CMakeFiles/libuvLearningNote.dir/clean
+CMakeFiles/spawn.dir/clean:
+	$(MAKE) -f CMakeFiles/spawn.dir/build.make CMakeFiles/spawn.dir/clean
+.PHONY : CMakeFiles/spawn.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

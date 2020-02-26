@@ -14,6 +14,18 @@ test.h
 uv.h
 /Users/wualex/Documents/libuvLearningNote/uv.h
 
+/Users/wualex/Documents/libuvLearningNote/test.cpp
+test.h
+/Users/wualex/Documents/libuvLearningNote/test.h
+uv.h
+/Users/wualex/Documents/libuvLearningNote/uv.h
+cstdio
+-
+cstring
+-
+cstdlib
+-
+
 /Users/wualex/Documents/libuvLearningNote/test.h
 
 /usr/local/include/uv.h
